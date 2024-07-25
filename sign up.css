@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #262a2f;
+}
+.Login-box{
+    background: white;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.logo{
+   width: 30px;
+   margin-top: 30px; 
+}
+.Login-box h2{
+    margin-top: 5px;
+}
+.Login-box button img{
+    width: 18px;
+    margin-right: 10px;
+}
+.Login-box button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Login-box hr{
+    border: 0;
+    height: 1px;
+    background: blue;
+    margin: 5px;
+}
+.Login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: white;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.Login-box input{
+    width: 100%;
+    background-color: transparent;
+    border: 0.5px solid lightskyblue;
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+.duro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.01px;
+}
+.duro a{
+    color: rgb(23,114,235);
+}
+.saka{
+
+}
+.saka button{
+    background-color: rgb(23,114,235);
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    border-radius: 1px;
+}
+.saka hr{
+    border: 0.1px solid rgba(128, 128, 128, 0.612);
+}
+.saka a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+
